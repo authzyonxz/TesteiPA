@@ -29,7 +29,7 @@ jobs:
           P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
         run: |
           echo "$P12_BASE64" | base64 --decode > certificate.p12
-          security import certificate.p12 -P "$P12_PASSWORD" -A
+          security import certificate.p12 -P "$P12_PASSWORD"
           rm certificate.p12
 
       - name: Decode Provisioning Profile
