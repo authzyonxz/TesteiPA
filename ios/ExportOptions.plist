@@ -1,17 +1,21 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>method</key>
-    <string>development</string>
+    <string>enterprise</string>
     <key>teamID</key>
-    <string>YOUR_TEAM_ID</string>
+    <string>76Z36US8FK</string>
+    <key>signingStyle</key>
+    <string>manual</string>
+    <key>provisioningProfiles</key>
+    <dict>
+        <key>app.orange1270.yellow5362</key>
+        <string>1 - [ DevWillTech ] - 00008020-0000781E11F9002E</string>
+    </dict>
     <key>compileBitcode</key>
     <false/>
     <key>stripSwiftSymbols</key>
     <true/>
-    <key>thinning</key>
-    <string>&lt;none&gt;</string>
 </dict>
 </plist>
